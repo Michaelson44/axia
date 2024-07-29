@@ -1,9 +1,14 @@
 
 // Part two of axia backend exam
 
-const myStudent = ["michaelson1"];
+// const myStudent = ["michaelson1"];
 
-for(let i = 0; i <= myStudent.length; i++) {
+// for(let i = 0; i <= myStudent.length; i++) {
+//     console.log(myStudent[i]);
+// }
+
+const myStudent = ["michael","blessing","emma","femi","david","chimobi","joy","joseph","ay","jethro","ada"];
+for(let i = 0; i < myStudent.length; i++) {
     console.log(myStudent[i]);
 }
 
