@@ -8,7 +8,8 @@
 // }
 
 const myStudent = ["michael","blessing","emma","femi","david","chimobi","joy","joseph","ay","jethro","ada"];
-for(let i = 0; i < myStudent.length; i++) {
+
+for(let i = 0; i <= myStudent.length; i++) {
     console.log(myStudent[i]);
 }
 
@@ -18,7 +19,7 @@ const person = {
     name: "michael",
     age: 23,
     married: false,
-    location: null
+    location: undefined
 }
 
 console.log(person.name);
